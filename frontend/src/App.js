@@ -17,8 +17,6 @@ function App() {
             element={<Home/>}
 
             />
-              
-            
           </Routes>
         </div>
       </BrowserRouter>
