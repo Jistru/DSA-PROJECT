@@ -6,6 +6,13 @@
   --primary: #1aac83;
   --error: #e7195a;
 }
+span{
+  color: #ddd;
+  padding: 10px;
+}
+.user:hover{
+  text-decoration: underline;
+}
 body {
   background: #f1f1f1;
   margin: 0;
@@ -89,6 +96,10 @@ form button {
   border-radius: 4px;
   cursor: pointer;
 }
+form button:hover:active{
+  transform: scale(0.95); /* Shrink slightly */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 div.error {
   padding: 10px;
   background: #ffefef;
@@ -110,8 +121,8 @@ nav a {
   margin-left: 10px;
 }
 nav button {
-  background: #fff;
-  color: var(--primary);
+  background: #1aac83;
+  color: #ffff;
   border: 2px solid var(--primary);
   padding: 6px 10px;
   border-radius: 4px;
@@ -120,8 +131,9 @@ nav button {
   font-size: 1em;
 }
 nav button:hover{
-  background: #1aac83;
-  color: #fff;
+  background: red;
+  color: #ffff;
+  border: 2px solid
 }
 /* auth forms */
 form.signup, form.login {
