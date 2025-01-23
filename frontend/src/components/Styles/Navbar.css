@@ -1,0 +1,54 @@
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+}
+nav a{
+    margin-left: 10px;
+}
+.biceps {
+    transform: scaleX(-1) rotate(0deg); /* Flip horizontally and rotate 90 degrees */
+}
+/* Navigation Buttons */
+nav button {
+    background: var(--primary);
+    color: #ffffff;
+    border: 2px solid var(--primary);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 10px;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+  
+nav button:hover {
+    background: var(--secondary); /* Gold hover */
+    border-color: var(--secondary);
+}
+
+/* Header */
+header {
+    background: var(--primary);
+}
+  
+header .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+  
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+header a:hover {
+    color: var(--secondary); /* Gold hover for links */
+}

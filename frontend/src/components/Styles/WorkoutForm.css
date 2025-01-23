@@ -1,0 +1,41 @@
+label, input {
+    display: block;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input.error {
+    border: 1px solid var(--error);
+  }
+  
+  form button {
+    background: var(--primary);
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .create{
+    background: rgba(203, 201, 201, 0.451);
+    padding: 30px;
+  }

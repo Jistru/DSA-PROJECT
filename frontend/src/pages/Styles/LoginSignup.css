@@ -1,0 +1,78 @@
+/* auth forms */
+form.login, form.signup {
+    max-width: 400px;
+    margin: 50px auto;
+    margin-top: 0px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+    height: 400px;
+}
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--login-bg-gradient);
+    color: #ffffff;
+  }
+  
+  .signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--signup-bg-gradient);
+    color: #ffffff;
+  }
+  
+  .login-page .form-container, .signup-page .form-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-page h2, .signup-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+  }
+  
+  .login-page input, .signup-page input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-page button, .signup-page button {
+    background: var(--primary);
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+  }
+  
+  .login-page button:hover, .signup-page button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+    animation: shake 0.5s;
+  }

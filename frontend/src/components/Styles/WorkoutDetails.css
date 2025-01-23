@@ -1,0 +1,43 @@
+.workout-details {
+    background: #ffffff;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+  
+.workout-details:hover {
+    transform: translateY(-3px);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.workout-details h4 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: var(--primary);
+}
+  
+.workout-details p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+  
+.workout-details span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: var(--background-light);
+    padding: 6px;
+    border-radius: 50%;
+    color: var(--text-dark);
+    transition: background 0.3s, color 0.3s;
+}
+  
+.workout-details span:hover {
+    background: var(--primary);
+    color: #ffffff;
+}
